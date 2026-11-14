@@ -1,3 +1,10 @@
+import heroCosmeticsImg from '../assets/images/hero_cosmetics_1794650899437.jpg';
+import productRoseSerumImg from '../assets/images/product_rose_serum_1794650898819.jpg';
+import productVelvetLipstickImg from '../assets/images/product_velvet_lipstick_1794650899546.jpg';
+import productSilkCreamImg from '../assets/images/product_silk_cream_1794650899958.jpg';
+import productBlushCompactImg from '../assets/images/product_blush_compact_1794650901187.jpg';
+import productPetalMistImg from '../assets/images/product_petal_mist_1794650900612.jpg';
+
 export type ProductCategory = 'Skincare' | 'Lips' | 'Cheeks' | 'Fragrance' | 'Sets';
 
 export interface ProductShade {
@@ -20,7 +27,7 @@ export interface Product {
   tag?: string;
 }
 
-export const HERO_IMAGE = '/src/assets/images/hero_cosmetics_1794650899437.jpg';
+export const HERO_IMAGE = heroCosmeticsImg;
 
 export const PRODUCTS: Product[] = [
   {
@@ -29,7 +36,7 @@ export const PRODUCTS: Product[] = [
     category: 'Skincare',
     size: '30 ml',
     price: 42,
-    image: '/src/assets/images/product_rose_serum_1794650898819.jpg',
+    image: productRoseSerumImg,
     shortNote: 'Dewy rosehip & hyaluronic radiance drops',
     description:
       'Weightless glass-skin serum infused with Damask rosewater and plant squalane for soft, hydrated luminosity.',
@@ -51,7 +58,7 @@ export const PRODUCTS: Product[] = [
     category: 'Lips',
     size: '3.5 g',
     price: 28,
-    image: '/src/assets/images/product_velvet_lipstick_1794650899546.jpg',
+    image: productVelvetLipstickImg,
     shortNote: 'Cushiony satin pigment with shea butter',
     description:
       'Creamy single-swipe satin lip color enriched with sweet almond oil and rose wax for comfortable all-day wear.',
@@ -73,7 +80,7 @@ export const PRODUCTS: Product[] = [
     category: 'Skincare',
     size: '50 ml',
     price: 46,
-    image: '/src/assets/images/product_silk_cream_1794650899958.jpg',
+    image: productSilkCreamImg,
     shortNote: 'Cloud-soft barrier repair face cream',
     description:
       'Air-whipped daily moisturizer blending ceramides, white tea, and squalane to cushion dry skin without heaviness.',
@@ -95,7 +102,7 @@ export const PRODUCTS: Product[] = [
     category: 'Cheeks',
     size: '6 g',
     price: 34,
-    image: '/src/assets/images/product_blush_compact_1794650901187.jpg',
+    image: productBlushCompactImg,
     shortNote: 'Soft-focus milled cheek veil',
     description:
       'Finely milled pressed blush that melts seamlessly into skin for a natural flushed glow with zero powdery fallout.',
@@ -116,7 +123,7 @@ export const PRODUCTS: Product[] = [
     category: 'Fragrance',
     size: '75 ml',
     price: 78,
-    image: '/src/assets/images/product_petal_mist_1794650900612.jpg',
+    image: productPetalMistImg,
     shortNote: 'White peony, pink pepper & soft musk',
     description:
       'A delicate daytime floral fragrance opening with crisp bergamot and fresh peony over warm cashmere woods.',
@@ -137,7 +144,7 @@ export const PRODUCTS: Product[] = [
     category: 'Sets',
     size: '30 ml + 50 ml',
     price: 76,
-    image: '/src/assets/images/hero_cosmetics_1794650899437.jpg',
+    image: heroCosmeticsImg,
     shortNote: 'Serum & Velvet Cream morning pairing',
     description:
       'Our two-step morning ritual pairing the Blush Botanical Serum with Silk Whip Moisturizer for calm, radiant skin.',
