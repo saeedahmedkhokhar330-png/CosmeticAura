@@ -1,0 +1,6 @@
+{
+  "name": "Aura Cosmetics",
+  "description": "Minimalist light pink and white neumorphic cosmetic shopping boutique for skincare, lip, cheek, and fragrance essentials.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
